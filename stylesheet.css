@@ -1,7 +1,9 @@
+/*changes the background of the entire website*/
 html {
   background-color: tan;
 }
 
+/*Positions the nav bar and colors it correctly*/
 #nav {
   width: 100%;
   display: flex;
@@ -17,10 +19,12 @@ html {
   list-style: none;
 }
 
+/*adjusts the header size*/
 h1 {
   font-size: 60px;
 }
 
+/*styles the lists of the website*/
 li {
   width: 25%;
   float: left;
@@ -29,6 +33,7 @@ li {
   border: 1px solid black;
 }
 
+/*removes bullets and centers the anchors*/
 li a {
   display: block;
   text-align: center;
@@ -37,11 +42,13 @@ li a {
   text-decoration: none;
 }
 
+/*centers the second headers in every web page*/
 h2 {
   text-align: center;
   font-size: 40px;
 }
 
+/*adds flex  to the website paragraphs and centers them*/
 p {
   display: flex;
   top: 50%;
@@ -52,18 +59,21 @@ p {
   width: 50%;
 }
 
+/*correctly sizes the headimg centers it*/
 #headImg {
   align-content: center;
   height: 200px;
   width: 200px;
 }
 
+/*positions the footer (needs adjustment)*/
 footer {
   position: relative;
   bottom: 0;
   width: 100%;
 }
 
+/*positions the img of the footer*/
 #footImg{
   bottom: 0;
   height: 100px;
@@ -71,18 +81,21 @@ footer {
 
 }
 
+/*centers the img of the restaurant location*/
 #locationImg {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/*centers the img of the menu*/
 .menu {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/*centers the img of the best current deal*/
 .bestdeal {
   display: block;
   margin-left: auto;
