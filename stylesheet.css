@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 /*changes the background of the entire website*/
 html {
   background-color: tan;
@@ -61,16 +67,20 @@ p {
 
 /*correctly sizes the headimg centers it*/
 #headImg {
+  position: relative;
   align-content: center;
   height: 200px;
   width: 200px;
+  margin-top: 100;
+  margin-bottom: 0;
 }
 
 /*positions the footer (needs adjustment)*/
 footer {
-  position: relative;
-  bottom: 0;
   width: 100%;
+  color: black;
+  text-align: left;
+  padding: 10px;
 }
 
 /*positions the img of the footer*/
