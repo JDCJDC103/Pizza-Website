@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="images.css">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BMBP5N778N"></script>
 <script>
@@ -20,9 +24,11 @@
 </head>
 
 <body>
-  <h1><img class="logo" id="headImg" src="images\Logo.png" alt="">Making Pizza Something to Cherish</h1>
   <nav>
     <ul id="nav">
+      <li>
+        <img class="logo" id="headImg" src="images\Logo.png" alt="">
+      </li>
       <li>
         <a href="index.html">Home</a>
       </li>
@@ -30,7 +36,7 @@
         <a href="About_Us.html">About Us</a>
       </li>
       <li>
-        <a href="Menu.html">Menu</a>
+        <a href="Menu.html" style="color: black" hover="color: #f2f2f2">Menu</a>
       </li>
       <li>
         <a href="Order.html">Order</a>
@@ -38,11 +44,10 @@
     </ul>
   </nav>
 
-  <h2>Menu</h2>
-  <img class="menu" src="images\menu.jpg" alt="logo">
+  <img class="menu" src="images\menu.jpg" alt="logo" style="flex-grow: 1;">
 </body>
 
 <footer>
-  <div><img class="logo" id="footImg" src="images\Logo.png" alt="logo">Testing the footer message</div>
+  <li><img class="logo" id="footImg" src="images\Logo.png" alt="logo" style="height: 150px; width: auto;">Call us at: (123) 456 - 789</li>
 </footer>
 </html>

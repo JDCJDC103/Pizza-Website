@@ -1,0 +1,9 @@
+#footImg {
+  display: block;
+  position: relative;
+  align-content: center;
+  height: 100%;
+  width: 10px;
+  margin-right: 20px;
+  padding: 0;
+}

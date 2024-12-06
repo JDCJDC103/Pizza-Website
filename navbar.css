@@ -1,0 +1,25 @@
+li {
+  margin: 0 15px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px;
+}
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  color: black;
+}
+#headImg {
+  display: block;
+  position: relative;
+  align-content: center;
+  height: 100%;
+  width: 200px;
+  margin-right: 20px;
+  padding: 0;
+}

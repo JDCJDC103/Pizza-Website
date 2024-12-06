@@ -1,0 +1,24 @@
+#footImg {
+  bottom: 0;
+  height: 100px;
+  width: 100px;
+}
+
+#locationImg{
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+.menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bestdeal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
