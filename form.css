@@ -20,6 +20,14 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
   background-color: #4b7f52;
 }
+
+form input[type="text"]{
+  display: inline-block;
+  width: 10%;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
 /*size the labels*/
 label {
   display: inline-block;
