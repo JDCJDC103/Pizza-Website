@@ -1,8 +1,11 @@
+/*Universal Styling*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Allow html and body to fully extend to the window height*/
 html, body {
   height: 100%;
   margin: 0;
@@ -12,18 +15,25 @@ html, body {
 ::selection {
   background-color: #67986e;
 }
+
+/*color the html background*/
 html {
   background-color: #f2f2f2;
 }
+
+/*add flex to body*/
 body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
+/*main to occupy all available container space*/
 main{
   flex: 1;
 }
+
+/*style button in Order*/
 button {
   display: flex;
   justify-content: center;
@@ -34,7 +44,9 @@ button {
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
+  margin-left: 10px;
 }
+/*Give button color changing hover function*/
 button:hover {
   background-color: #4b7f52dd;
 }

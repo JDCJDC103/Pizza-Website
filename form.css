@@ -1,7 +1,9 @@
+/*Lower form from the nav bar.*/
 form {
   margin-top: 5vh;
 }
-input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+/*style the input text fields */
+input[type="text"] {
   width: 10%;
   padding: 12px;
   font-size: 16px;
@@ -9,12 +11,16 @@ input[type="text"], input[type="email"], input[type="number"], input[type="passw
   border: 1px solid #ccc;
   margin-bottom: 15px;
 }
+
+/*Style the checkbox fields in order*/
 input[type="checkbox"] {
   margin-right: 10px;
 }
+/*change color of checkbox when checked to fit color theme*/
 input[type="checkbox"]:checked {
   background-color: #4b7f52;
 }
+/*size the labels*/
 label {
   display: inline-block;
   width: 140px;
@@ -22,6 +28,8 @@ label {
   text-align: right;
   margin-bottom: 5px;
 }
+
+/*size the fieldset labels*/
 fieldset label {
   display: block;
   width: 170px;

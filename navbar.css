@@ -1,9 +1,11 @@
+/*General Styling for lists, should focus it to nav bar specific*/
 li {
   margin: 0 15px;
   list-style: none;
   text-decoration: none;
   font-size: 40px;
 }
+/*Color and style navigation options*/
 li a {
   display: inline-block;
   text-align: center;
@@ -11,9 +13,11 @@ li a {
   color: white;
   text-decoration: none;
 }
+/*Allow for hover effects on Nav Bar*/
 li a:hover {
   color: black;
 }
+/*Align and size the header logo*/
 #headImg {
   display: block;
   position: relative;

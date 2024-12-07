@@ -1,20 +1,25 @@
+/*Size image of the footer*/
 #footImg {
   bottom: 0;
   height: 100px;
   width: 100px;
 }
 
+/*Size location image in About Us*/
 #locationImg{
   display: block;
   margin: 20px auto;
   max-width: 100%;
   height: auto;
 }
+/*Center menu image in Menu*/
 .menu {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+/*Center best deal image in home*/
 .bestdeal {
   display: block;
   margin-left: auto;
