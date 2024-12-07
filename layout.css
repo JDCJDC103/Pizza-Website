@@ -38,6 +38,7 @@ fieldset {
   border-radius: 5px;
   border: 1px solid #ddd;
 }
+
 /*General div styling*/
 div {
   display: flex;
@@ -60,7 +61,7 @@ footer {
 }
 
 /*Position and size footer items*/
-footer li {
+footer div {
   display: flex;
   justify-content: left;
   align-items: center;
